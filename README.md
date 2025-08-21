@@ -2,7 +2,7 @@
 
 Microservice untuk menangani pembayaran pada platform TiketQ menggunakan FastAPI dan Midtrans sebagai payment gateway.
 
-![Database Schema](images/db.png)
+<img src="images/db.png" alt="Database Schema" width="500">
 
 ## 🏗️ Arsitektur
 
@@ -23,7 +23,7 @@ payment-service/
     └── payment.py          # Payment REST API
 ```
 
-![System Diagram](images/diagram.png)
+<img src="images/diagram.png" alt="System Diagram" width="500">
 
 ### Hexagonal Pattern Components:
 
@@ -33,7 +33,7 @@ payment-service/
 
 ## 🔄 Payment Flow
 
-![Payment Flow](images/flow-payment.png)
+<img src="images/flow-payment.png" alt="Payment Flow" width="500">
 
 Payment service menangani proses pembayaran dengan flow:
 
